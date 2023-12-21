@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "siiap-web:build:production"
+              "buildTarget": "siiap-web:build:production"
             },
             "development": {
-              "browserTarget": "siiap-web:build:development"
+              "buildTarget": "siiap-web:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "siiap-web:build"
+            "buildTarget": "siiap-web:build"
           }
         },
         "test": {
